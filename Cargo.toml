@@ -1,0 +1,8 @@
+# This issue prevents the current scheme from working:
+# https://github.com/PyO3/pyo3/issues/1444
+
+[workspace]
+members = [
+    "main-module",
+    "plugin-module"
+]
